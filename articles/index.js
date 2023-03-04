@@ -27,7 +27,7 @@ const newsFetcher = async (topic) => {
 
   newsHeading.innerText = `News Realted To ${topic}`
   try {
-    const response = await fetch(`https://newsapi.org/v2/top-headlines?q=${topic}&from=${date}&to=${date}&apiKey=680e5e1f435b4e9ca281624aba6b4d51`, options);
+    const response = await fetch(`https://newsapi.org/v2/top-headlines?q=${topic}&from=${date}&to=${date}&apiKey=<API_KEY>`, options);
     const data = await response.json();
     const articles = data.articles;
     
