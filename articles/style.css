@@ -1,0 +1,29 @@
+#news-title,#news-description{
+    cursor: pointer;
+}
+#articles-container{
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 90vw; */
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 9px;
+
+}
+.card{
+    margin-top: 1em;
+
+}
+#news-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
